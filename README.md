@@ -8,6 +8,12 @@ No accounts, no ads, no tracking. One small Node.js server and a browser.
 
 ![Keywordia home screen with the try-the-board map and game modes](docs/images/home.webp)
 
+## Watch the video
+
+[![I built a free multiplayer SEO quiz game (open source)](https://img.youtube.com/vi/KuIN7EPK7tI/maxresdefault.jpg)](https://www.youtube.com/watch?v=KuIN7EPK7tI)
+
+Click the image to [watch it on YouTube](https://www.youtube.com/watch?v=KuIN7EPK7tI).
+
 ## Features
 
 <img src="docs/images/practice-setup.webp" alt="Practice setup: pick a map, topics, war rounds and answer time" width="320" align="right">
