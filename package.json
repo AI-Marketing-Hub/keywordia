@@ -1,0 +1,27 @@
+{
+  "name": "keywordia",
+  "version": "0.1.0",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "description": "AI Marketing Hub community quiz and territory conquest game",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/*.test.js",
+    "check": "node --check src/game.js && node --check src/server.js && node --check public/app.js && node --check public/realm-map.js && node scripts/validate-content.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "d3-geo": "^3.1.1",
+    "socket.io-client": "^4.8.1",
+    "topojson-client": "^3.1.0",
+    "topojson-server": "^3.0.1",
+    "topojson-simplify": "^3.0.3"
+  }
+}

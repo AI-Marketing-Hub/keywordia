@@ -1,0 +1,56 @@
+[
+  {
+    "id": "seo",
+    "name": "Google Search",
+    "short": "Search",
+    "description": "How Google Search works and what it expects from a good website.",
+    "color": "#7ED957",
+    "icon": "search",
+    "repoUrl": "https://github.com/AgriciDaniel/claude-seo"
+  },
+  {
+    "id": "ads",
+    "name": "Google Ads",
+    "short": "Ads",
+    "description": "Running ads on Google: targeting, ad formats and the rules.",
+    "color": "#FFC107",
+    "icon": "target",
+    "repoUrl": "https://github.com/AgriciDaniel/claude-ads"
+  },
+  {
+    "id": "content",
+    "name": "Content & YouTube",
+    "short": "Content",
+    "description": "Helpful content, blog posts and YouTube basics.",
+    "color": "#FF9B92",
+    "icon": "pen",
+    "repoUrl": "https://github.com/AgriciDaniel/claude-blog"
+  },
+  {
+    "id": "local",
+    "name": "Google Maps & Reviews",
+    "short": "Maps",
+    "description": "Business Profiles, reviews and showing up on Google Maps.",
+    "color": "#7DB4F5",
+    "icon": "pin",
+    "repoUrl": "https://github.com/AI-Marketing-Hub/local-seo-brain"
+  },
+  {
+    "id": "ai",
+    "name": "AI Tools",
+    "short": "AI",
+    "description": "Using AI tools for marketing work, safely and well.",
+    "color": "#B9A2F2",
+    "icon": "spark",
+    "repoUrl": "https://github.com/AgriciDaniel/flow"
+  },
+  {
+    "id": "clients",
+    "name": "Clients & Agency",
+    "short": "Clients",
+    "description": "Working with clients: account access, trust and honest promises.",
+    "color": "#5ED1B8",
+    "icon": "users",
+    "repoUrl": "https://github.com/AI-Marketing-Hub"
+  }
+]

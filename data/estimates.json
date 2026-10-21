@@ -1,0 +1,506 @@
+[
+  {
+    "id": "estimate-seo-01",
+    "category": "seo",
+    "prompt": "In what year was Google Inc. officially born (incorporated)?",
+    "value": 1998,
+    "unit": "year",
+    "min": 1990,
+    "max": 2026,
+    "explanation": "In August 1998 Andy Bechtolsheim wrote Larry and Sergey a $100,000 check, and Google Inc. was officially born.",
+    "source": {
+      "title": "Google: Our story",
+      "url": "https://about.google/our-story/"
+    }
+  },
+  {
+    "id": "estimate-seo-02",
+    "category": "seo",
+    "prompt": "In what year did Google rename Google Webmaster Tools to Google Search Console?",
+    "value": 2015,
+    "unit": "year",
+    "min": 1990,
+    "max": 2026,
+    "explanation": "Google announced the rebrand on May 20, 2015, so the tool would include everyone who cares about Search, not just webmasters.",
+    "source": {
+      "title": "Google Search Central Blog: Announcing Google Search Console",
+      "url": "https://developers.google.com/search/blog/2015/05/announcing-google-search-console-new"
+    }
+  },
+  {
+    "id": "estimate-seo-03",
+    "category": "seo",
+    "prompt": "In what year does Google say its story began at Stanford University?",
+    "value": 1995,
+    "unit": "year",
+    "min": 1990,
+    "max": 2026,
+    "explanation": "Google traces its story to 1995, when Larry Page and Sergey Brin met at Stanford. Their first search engine, called Backrub, used links to judge how important pages were.",
+    "source": {
+      "title": "Google: Our story",
+      "url": "https://about.google/company-info/our-story/"
+    }
+  },
+  {
+    "id": "estimate-seo-04",
+    "category": "seo",
+    "prompt": "Every day, what percent of Google searches are ones Google has never seen before?",
+    "value": 15,
+    "unit": "percent",
+    "min": 0,
+    "max": 100,
+    "explanation": "Google says fifteen percent of daily searches are brand new. People keep finding new ways to ask, which is why writing naturally for real questions matters.",
+    "source": {
+      "title": "Google: How Search Works, our approach",
+      "url": "https://www.google.com/search/howsearchworks/our-approach/"
+    }
+  },
+  {
+    "id": "estimate-seo-05",
+    "category": "seo",
+    "prompt": "For good responsiveness (INP, a Core Web Vital), a page should react to taps in under how many milliseconds?",
+    "value": 200,
+    "unit": "milliseconds",
+    "min": 100,
+    "max": 400,
+    "explanation": "Google suggests an Interaction to Next Paint under 200 milliseconds, so taps and clicks feel quick.",
+    "source": {
+      "title": "Google: Understanding Core Web Vitals and Google search results",
+      "url": "https://developers.google.com/search/docs/appearance/core-web-vitals"
+    }
+  },
+  {
+    "id": "estimate-seo-06",
+    "category": "seo",
+    "prompt": "Old page redirects to another, then another. Up to how many hops in a redirect chain can Googlebot follow?",
+    "value": 10,
+    "unit": "hops",
+    "min": 5,
+    "max": 20,
+    "explanation": "Googlebot can follow up to 10 redirect hops, but Google advises sending people straight to the final page.",
+    "source": {
+      "title": "Google: Site moves with URL changes",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes"
+    }
+  },
+  {
+    "id": "estimate-ads-01",
+    "category": "ads",
+    "prompt": "In what year did Google AdWords become Google Ads?",
+    "value": 2018,
+    "unit": "year",
+    "min": 1990,
+    "max": 2026,
+    "explanation": "Google AdWords became Google Ads on July 24, 2018, along with a new logo.",
+    "source": {
+      "title": "Google Ads Help: Google AdWords is now Google Ads",
+      "url": "https://support.google.com/google-ads/answer/9028765?hl=en"
+    }
+  },
+  {
+    "id": "estimate-ads-02",
+    "category": "ads",
+    "prompt": "How many characters can one headline in a responsive search ad have, at most?",
+    "value": 30,
+    "unit": "characters",
+    "min": 0,
+    "max": 200,
+    "explanation": "Responsive search ad headlines allow up to 30 characters each. Descriptions allow up to 90.",
+    "source": {
+      "title": "Google Ads Help: About responsive search ads",
+      "url": "https://support.google.com/google-ads/answer/7684791"
+    }
+  },
+  {
+    "id": "estimate-ads-03",
+    "category": "ads",
+    "prompt": "How many characters can each description in a responsive search ad have?",
+    "value": 90,
+    "unit": "characters",
+    "min": 0,
+    "max": 200,
+    "explanation": "Descriptions get up to 90 characters each, plenty of room to explain your offer and give people a reason to click.",
+    "source": {
+      "title": "Google Ads Help: About responsive search ads",
+      "url": "https://support.google.com/google-ads/answer/7684791"
+    }
+  },
+  {
+    "id": "estimate-ads-04",
+    "category": "ads",
+    "prompt": "How many characters can sitelink text have in most languages?",
+    "value": 25,
+    "unit": "characters",
+    "min": 0,
+    "max": 100,
+    "explanation": "Sitelink text is capped at 25 characters, so short labels like \"Book a table\" or \"Opening hours\" work best.",
+    "source": {
+      "title": "Google Ads Help: About sitelink assets",
+      "url": "https://support.google.com/google-ads/answer/2375416"
+    }
+  },
+  {
+    "id": "estimate-ads-05",
+    "category": "ads",
+    "prompt": "Your daily budget is $10. Your monthly spend limit is how many times that daily budget?",
+    "value": 30.4,
+    "unit": "times",
+    "min": 5,
+    "max": 60,
+    "explanation": "Google caps monthly spend at about 30.4 times your average daily budget, the average number of days in a month.",
+    "source": {
+      "title": "Google Ads Help: About average daily budgets",
+      "url": "https://support.google.com/google-ads/answer/6385083"
+    }
+  },
+  {
+    "id": "estimate-ads-06",
+    "category": "ads",
+    "prompt": "You stack several bid adjustments. What is the biggest combined bid increase allowed?",
+    "value": 900,
+    "unit": "%",
+    "min": 500,
+    "max": 1000,
+    "explanation": "Combined bid adjustments can raise your bid by up to 900%, so stacking boosts has a ceiling.",
+    "source": {
+      "title": "Google Ads Help: About bid adjustments",
+      "url": "https://support.google.com/google-ads/answer/2732132"
+    }
+  },
+  {
+    "id": "estimate-content-01",
+    "category": "content",
+    "prompt": "What is the maximum number of characters in a YouTube video title?",
+    "value": 100,
+    "unit": "characters",
+    "min": 0,
+    "max": 1000,
+    "explanation": "YouTube video titles have a limit of 100 characters.",
+    "source": {
+      "title": "YouTube Help: Edit video settings",
+      "url": "https://support.google.com/youtube/answer/57404"
+    }
+  },
+  {
+    "id": "estimate-content-02",
+    "category": "content",
+    "prompt": "What is the maximum number of characters in a YouTube video description?",
+    "value": 5000,
+    "unit": "characters",
+    "min": 0,
+    "max": 10000,
+    "explanation": "YouTube video descriptions have a limit of 5,000 characters.",
+    "source": {
+      "title": "YouTube Help: Edit video settings",
+      "url": "https://support.google.com/youtube/answer/57404"
+    }
+  },
+  {
+    "id": "estimate-content-03",
+    "category": "content",
+    "prompt": "What is the maximum number of characters allowed in a YouTube playlist title?",
+    "value": 150,
+    "unit": "characters",
+    "min": 10,
+    "max": 500,
+    "explanation": "Playlist titles can be up to 150 characters. A clear, searchable title like \"Easy weeknight recipes\" helps viewers find the playlist.",
+    "source": {
+      "title": "YouTube Help: Manage playlists in YouTube Studio",
+      "url": "https://support.google.com/youtube/answer/10232933?hl=en&co=GENIE.Platform%3DDesktop"
+    }
+  },
+  {
+    "id": "estimate-content-04",
+    "category": "content",
+    "prompt": "How many qualified watch hours (last 12 months) does the long-form YPP path need, with 1,000 subs?",
+    "value": 4000,
+    "unit": "hours",
+    "min": 100,
+    "max": 20000,
+    "explanation": "Long-form channels need 1,000 subscribers and 4,000 qualified watch hours in the last 12 months to apply for the YouTube Partner Program. Shorts creators have a separate views path.",
+    "source": {
+      "title": "YouTube Help: YouTube Partner Program overview & eligibility",
+      "url": "https://support.google.com/youtube/answer/72851"
+    }
+  },
+  {
+    "id": "estimate-content-05",
+    "category": "content",
+    "prompt": "When you add chapters to a YouTube video, what is the minimum length of each chapter?",
+    "value": 10,
+    "unit": "seconds",
+    "min": 5,
+    "max": 20,
+    "explanation": "Each chapter must be at least 10 seconds long, and you need at least three of them starting at 00:00.",
+    "source": {
+      "title": "YouTube Help: Video chapters",
+      "url": "https://support.google.com/youtube/answer/9884579"
+    }
+  },
+  {
+    "id": "estimate-content-06",
+    "category": "content",
+    "prompt": "What percent of confirmed Super Chat and Super Sticker revenue do creators receive?",
+    "value": 70,
+    "unit": "percent",
+    "min": 55,
+    "max": 85,
+    "explanation": "Creators get 70% of confirmed Supers revenue, after local sales tax and app store fees are taken out.",
+    "source": {
+      "title": "YouTube Help: Manage YouTube Super Chat & Super Stickers for Live Chat",
+      "url": "https://support.google.com/youtube/answer/7288782"
+    }
+  },
+  {
+    "id": "estimate-local-01",
+    "category": "local",
+    "prompt": "In what year was Google Maps first launched?",
+    "value": 2005,
+    "unit": "year",
+    "min": 1990,
+    "max": 2026,
+    "explanation": "Google Maps first launched on desktop on February 8, 2005.",
+    "source": {
+      "title": "Google Blog: A look back at 15 years of mapping the world",
+      "url": "https://blog.google/products/maps/look-back-15-years-mapping-world/"
+    }
+  },
+  {
+    "id": "estimate-local-02",
+    "category": "local",
+    "prompt": "What is the maximum number of characters allowed in a Business Profile description?",
+    "value": 750,
+    "unit": "characters",
+    "min": 0,
+    "max": 10000,
+    "explanation": "Google's Business Profile help says not to exceed 750 characters in the description field.",
+    "source": {
+      "title": "Google: Edit your Business Profile",
+      "url": "https://support.google.com/business/answer/3039617?hl=en"
+    }
+  },
+  {
+    "id": "estimate-local-03",
+    "category": "local",
+    "prompt": "A plumber covers lots of towns. Up to how many service areas can a Business Profile list?",
+    "value": 20,
+    "unit": "service areas",
+    "min": 1,
+    "max": 100,
+    "explanation": "You can add up to 20 service areas, using cities, postal codes or other areas you serve.",
+    "source": {
+      "title": "Google Business Profile Help: Manage your service areas for service-area & hybrid businesses",
+      "url": "https://support.google.com/business/answer/9157481"
+    }
+  },
+  {
+    "id": "estimate-local-04",
+    "category": "local",
+    "prompt": "You want to add a video tour of your cafe. What's the longest a Business Profile video can be?",
+    "value": 30,
+    "unit": "seconds",
+    "min": 5,
+    "max": 300,
+    "explanation": "Business Profile videos can be up to 30 seconds long (and up to 75 MB), so keep the tour short and sweet.",
+    "source": {
+      "title": "Google Business Profile Help: Manage your Business Profile photos & videos",
+      "url": "https://support.google.com/business/answer/6103862"
+    }
+  },
+  {
+    "id": "estimate-local-05",
+    "category": "local",
+    "prompt": "Besides the primary category, how many more categories can a Business Profile have, at most?",
+    "value": 9,
+    "unit": "categories",
+    "min": 1,
+    "max": 30,
+    "explanation": "You can add up to 9 categories on top of your primary one, though Google advises using as few as describe your core business.",
+    "source": {
+      "title": "Google Business Profile Help: Edit your Business Profile",
+      "url": "https://support.google.com/business/answer/3039617"
+    }
+  },
+  {
+    "id": "estimate-local-06",
+    "category": "local",
+    "prompt": "You get a verification code by postcard. After how many days does that code expire?",
+    "value": 30,
+    "unit": "days",
+    "min": 5,
+    "max": 90,
+    "explanation": "Postcard verification codes expire after 30 days, and most arrive within 14 days, so enter yours soon after it lands.",
+    "source": {
+      "title": "Google Business Profile Help: Verify your business on Google",
+      "url": "https://support.google.com/business/answer/7107242"
+    }
+  },
+  {
+    "id": "estimate-ai-01",
+    "category": "ai",
+    "prompt": "In what year did Google publish its Search guidance about AI-generated content?",
+    "value": 2023,
+    "unit": "year",
+    "min": 1990,
+    "max": 2026,
+    "explanation": "Google Search Central posted its guidance about AI-generated content on February 8, 2023.",
+    "source": {
+      "title": "Google Search Central: Google Search's guidance about AI-generated content",
+      "url": "https://developers.google.com/search/blog/2023/02/google-search-and-ai-content"
+    }
+  },
+  {
+    "id": "estimate-ai-02",
+    "category": "ai",
+    "prompt": "How many ready-made AI prompts came with the first public release of the FLOW playbook?",
+    "value": 42,
+    "unit": "prompts",
+    "min": 0,
+    "max": 1000,
+    "explanation": "FLOW 1.0.0 (April 2026) shipped a prompt library of 42 standardized AI prompts across its stages.",
+    "source": {
+      "title": "GitHub: FLOW changelog",
+      "url": "https://github.com/AgriciDaniel/flow/blob/main/CHANGELOG.md"
+    }
+  },
+  {
+    "id": "estimate-ai-03",
+    "category": "ai",
+    "prompt": "In what year did Anthropic first introduce its AI assistant Claude to the public?",
+    "value": 2023,
+    "unit": "year",
+    "min": 2015,
+    "max": 2026,
+    "explanation": "Anthropic announced Claude (and a faster, cheaper Claude Instant) on March 14, 2023.",
+    "source": {
+      "title": "Anthropic: Introducing Claude",
+      "url": "https://www.anthropic.com/news/introducing-claude"
+    }
+  },
+  {
+    "id": "estimate-ai-04",
+    "category": "ai",
+    "prompt": "When Google launched Gemini 1.0, how many model sizes did it come in?",
+    "value": 3,
+    "unit": "sizes",
+    "min": 1,
+    "max": 10,
+    "explanation": "Gemini 1.0 launched in December 2023 in three sizes: Ultra for complex tasks, Pro for everyday scale, and Nano for on-device use.",
+    "source": {
+      "title": "Google: Introducing Gemini, our largest and most capable AI model",
+      "url": "https://blog.google/technology/ai/google-gemini-ai/"
+    }
+  },
+  {
+    "id": "estimate-ai-05",
+    "category": "ai",
+    "prompt": "Claude reads both text and visuals (charts, images) in PDFs up to how many pages?",
+    "value": 100,
+    "unit": "pages",
+    "min": 50,
+    "max": 150,
+    "explanation": "Up to 100 pages, Claude sees charts and images too. Longer PDFs (up to 1,000 pages) get text only.",
+    "source": {
+      "title": "Claude Help Center: Upload files to Claude",
+      "url": "https://support.claude.com/en/articles/8241126-upload-files-to-claude"
+    }
+  },
+  {
+    "id": "estimate-ai-06",
+    "category": "ai",
+    "prompt": "How many files can you upload to a single Claude chat, at most?",
+    "value": 20,
+    "unit": "files",
+    "min": 10,
+    "max": 30,
+    "explanation": "You can add up to 20 files to one chat, each up to 500MB.",
+    "source": {
+      "title": "Claude Help Center: Upload files to Claude",
+      "url": "https://support.claude.com/en/articles/8241126-upload-files-to-claude"
+    }
+  },
+  {
+    "id": "estimate-clients-01",
+    "category": "clients",
+    "prompt": "How many non-owner users (full or restricted) can one Search Console property have, at most?",
+    "value": 100,
+    "unit": "users",
+    "min": 0,
+    "max": 10000,
+    "explanation": "Google caps a Search Console property at 100 non-owner users. Owners are counted separately.",
+    "source": {
+      "title": "Google: Managing owners, users, and permissions in Search Console",
+      "url": "https://support.google.com/webmasters/answer/7687615?hl=en"
+    }
+  },
+  {
+    "id": "estimate-clients-02",
+    "category": "clients",
+    "prompt": "Up to how many Google Ads accounts can be linked to a single email address?",
+    "value": 20,
+    "unit": "accounts",
+    "min": 0,
+    "max": 1000,
+    "explanation": "Google says up to 20 Google Ads accounts can share one email address. Beyond that, a manager account is the best option.",
+    "source": {
+      "title": "Google Ads Help: About Google Ads manager accounts",
+      "url": "https://support.google.com/google-ads/answer/6139186?hl=en"
+    }
+  },
+  {
+    "id": "estimate-clients-03",
+    "category": "clients",
+    "prompt": "Someone requests ownership of your client's Business Profile. How many days does the owner get to reply?",
+    "value": 3,
+    "unit": "days",
+    "min": 0,
+    "max": 30,
+    "explanation": "The current owner is emailed and has 3 days. If there's no reply, the client may be able to claim the profile.",
+    "source": {
+      "title": "Google Business Profile Help: Request ownership of a Business Profile",
+      "url": "https://support.google.com/business/answer/4566671"
+    }
+  },
+  {
+    "id": "estimate-clients-04",
+    "category": "clients",
+    "prompt": "What minimum optimization score (in %) must a Google Partner's registered manager account keep?",
+    "value": 70,
+    "unit": "%",
+    "min": 0,
+    "max": 100,
+    "explanation": "Partners need at least 70%, and you stay in control: you can apply or dismiss recommendations based on your clients' goals.",
+    "source": {
+      "title": "Google Ads Help: How to become a Google Partner or Premier Partner",
+      "url": "https://support.google.com/google-ads/answer/9702452"
+    }
+  },
+  {
+    "id": "estimate-clients-05",
+    "category": "clients",
+    "prompt": "A Google Partner's manager account must keep a 90-day ad spend of how many US dollars across clients?",
+    "value": 10000,
+    "unit": "USD",
+    "min": 2000,
+    "max": 50000,
+    "explanation": "The spend requirement for Google Partner status is a 90-day ad spend of $10,000 USD across the accounts the agency manages.",
+    "source": {
+      "title": "Google Ads Help: How to become a Google Partner or Premier Partner",
+      "url": "https://support.google.com/google-ads/answer/9702452"
+    }
+  },
+  {
+    "id": "estimate-clients-06",
+    "category": "clients",
+    "prompt": "You invite an editor to a client's YouTube channel. After how many days does an unused invite expire?",
+    "value": 30,
+    "unit": "days",
+    "min": 7,
+    "max": 90,
+    "explanation": "A YouTube channel permission invite expires after 30 days, so resend it if your helper misses it.",
+    "source": {
+      "title": "YouTube Help: Add or remove access to your YouTube channel with channel permissions",
+      "url": "https://support.google.com/youtube/answer/9481328?co=GENIE.Platform%3DDesktop"
+    }
+  }
+]

@@ -1,0 +1,7 @@
+node_modules
+handoff
+artifacts
+docs
+tests
+.env*
+*.log

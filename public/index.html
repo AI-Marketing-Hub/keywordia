@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#25211d">
+  <meta name="description" content="The AI Marketing Hub quiz game. Answer questions about Google, search and client work, then claim the map.">
+  <title>Keywordia · AI Marketing Hub</title>
+  <link rel="icon" href="/assets/aimh-logo.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/arena.css">
+  <link rel="stylesheet" href="/looks.css">
+  <script src="/socket.io/socket.io.js" defer></script>
+  <script src="/realm-map.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body class="lamp">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="app-shell">
+    <header class="topbar">
+      <a href="#play" data-nav="play" class="brand" aria-label="Keywordia home"><span class="brand-logo"><img src="/assets/aimh-logo.png" alt="AI Marketing Hub" width="66" height="66"></span><span class="brand-name">Keywordia<small>AI Marketing Hub</small></span></a>
+      <div class="topbar-right"><span class="connection"><span id="connection-dot" class="status-dot"></span><span id="connection-label">Connecting…</span></span><button class="theme-button" id="theme-button" data-action="theme" aria-label="Switch to light mode" title="Switch to light mode"></button><button class="avatar-button" id="profile-button" title="Set your player name" aria-label="Set your player name">M</button></div>
+    </header>
+    <div class="main-shell"><span id="page-crumb" class="sr-only">Game lobby</span><main id="main" tabindex="-1"></main><footer class="app-footer">AI Marketing Hub · A community quiz game.</footer></div>
+    <nav class="bottom-nav" aria-label="Main navigation">
+      <a href="#play" data-nav="play"><span data-icon="castle"></span><span>Lobby</span></a>
+      <a href="#library" data-nav="library"><span data-icon="book"></span><span>Questions</span></a>
+      <a href="#guide" data-nav="guide"><span data-icon="map"></span><span>How to play</span></a>
+    </nav>
+  </div>
+  <dialog id="modal" aria-labelledby="modal-title"><div id="modal-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

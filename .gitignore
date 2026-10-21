@@ -1,0 +1,19 @@
+node_modules/
+.env
+.env.*
+!.env.example
+npm-debug.log*
+coverage/
+.DS_Store
+artifacts/
+
+# Kept local: stale 15 October snapshot, and excerpts of third-party reference CSS
+handoff/
+docs/reference-evidence/
+
+# Local working files, never published
+_backup-*/
+Keywordia Session Handoff*/
+*.xlsx
+pnpm-lock.yaml
+.directory
