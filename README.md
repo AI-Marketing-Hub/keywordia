@@ -6,9 +6,11 @@ Keywordia is a free multiplayer quiz game for marketers, made by the [AI Marketi
 
 No accounts, no ads, no tracking. One small Node.js server and a browser.
 
-![Keywordia home screen with the try-the-board map, game modes and topic cards](docs/images/home.png)
+![Keywordia home screen with the try-the-board map and game modes](docs/images/home.webp)
 
 ## Features
+
+<img src="docs/images/practice-setup.webp" alt="Practice setup: pick a map, topics, war rounds and answer time" width="320" align="right">
 
 - **Play together or alone.** Create a private room for 2 to 6 players and share a six-character code, or practise against two friendly bots.
 - **336 questions in six topics**, each with an explanation and a link to the official source behind the answer.
@@ -16,6 +18,8 @@ No accounts, no ads, no tracking. One small Node.js server and a browser.
 - **Fair by design.** The server owns the game, keeps the answers hidden until everyone has locked in, and computes every score.
 - **Made for any screen**, with keyboard controls (1 to 4 to answer), a number keypad, light and dark themes, sound and reduced-motion support.
 - **Rejoin after a drop.** A disconnected player keeps their seat and can reconnect; if the host leaves, another player takes over.
+
+<br clear="right">
 
 ## How a game works
 
@@ -26,6 +30,19 @@ No accounts, no ads, no tracking. One small Node.js server and a browser.
 5. **Podium.** The most valuable territory wins. You get a stats table, a rematch button and a CSV export.
 
 Your score is always the value of the regions you hold plus a bonus for each successful defence. [The protocol](docs/protocol.md) has the exact rules, timers and point values.
+
+![The war begins: the Conquest stage on the United States map](docs/images/conquest.webp)
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/images/attack.webp" alt="A bot attacks a rival region on its border"></td>
+    <td width="50%"><img src="docs/images/tie-break.webp" alt="A tie-break duel where the closest number wins"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Attack a region on your border</sub></td>
+    <td align="center"><sub>Both right? The closest number wins</sub></td>
+  </tr>
+</table>
 
 ## Topics
 
